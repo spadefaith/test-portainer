@@ -1,0 +1,11 @@
+version: "3"
+services:
+  app:
+    container_name: test-portainer-${NODE_ENV}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "${PORT}:${APP_PORT}"
+    environment:
+      NODE_ENV: ${NODE_ENV}

@@ -1,0 +1,7 @@
+{
+
+  "ignore": ["src/**/*.test.ts", "node_modules"],
+  "ext": "ts,mjs,js,json,graphql,sh,bash,ejs",
+  "exec": "tsx index.ts",
+  "legacyWatch": true
+}
