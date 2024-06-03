@@ -1,7 +1,7 @@
 version: "3"
 services:
   app:
-    container_name: test-portainer-${NODE_ENV}
+    container_name: test-portainer-${NODE_ENV}-v1
     build:
       context: .
       dockerfile: Dockerfile
